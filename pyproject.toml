@@ -1,0 +1,18 @@
+[project]
+name = "heart"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "altair[all]>=5.5.0",
+    "polars>=1.30.0",
+    "ruff>=0.11.12",
+    "scanpy>=1.11.2",
+    "squidpy>=1.6.5",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
