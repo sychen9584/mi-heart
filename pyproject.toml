@@ -6,10 +6,13 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "altair[all]>=5.5.0",
+    "muon>=0.1.7",
     "polars>=1.30.0",
+    "pysam>=0.23.2",
     "ruff>=0.11.12",
     "scanpy>=1.11.2",
-    "squidpy>=1.6.5",
+    "squidpy[interactive]>=1.6.5",
+    "xarray-dataclasses==1.9.1",
 ]
 
 [dependency-groups]
