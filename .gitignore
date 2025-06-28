@@ -11,3 +11,6 @@ wheels/
 
 # Big data files
 data/
+
+.RData
+.Rhistory
